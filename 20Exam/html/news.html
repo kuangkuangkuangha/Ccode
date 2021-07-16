@@ -1,0 +1,447 @@
+<html>
+
+<head>
+
+    /*外部样式 内部样式 行内样式*/
+
+    <meta charset="utf8">
+    <title></title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #boxid {
+            width: 1400px;
+            overflow: hidden;
+            height: 1000px;
+            border: 1px solid blueviolet;
+        }
+        
+        .head {
+            width: 1380px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+            background-color: antiquewhite;
+            background-image: url(/Users/zhangkuang/Desktop/image/banner.jpg);
+        }
+        
+        .a {
+            width: 950px;
+            height: 350px;
+            margin: 10px;
+            border: 1px solid black;
+            background-image: url();
+            float: left;
+            background-color: beige;
+            background-repeat: no-repeat;
+        }
+        
+        .line {
+            width: 1380px;
+            height: 40px;
+            margin: 10px;
+            border: 1px solid black;
+            float: left;
+        }
+        
+        .e {
+            width: 400px;
+            height: 980px;
+            margin: 10px;
+            border: 1px solid black;
+            background-color: chartreuse;
+            float: right;
+        }
+        
+        .e_1 {
+            width: 380px;
+            height: 50px;
+            margin: 10px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: aqua;
+            float: left;
+        }
+        
+        .e_2 {
+            width: 380px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: green;
+            float: left;
+        }
+        
+        .e_3 {
+            width: 380px;
+            height: 50px;
+            margin: 10px;
+            background-image: url(/Users/zhangkuang/Desktop/image/list1.jpeg);
+            border: 1px solid black;
+            background-color: green;
+            float: left;
+        }
+        
+        .e_4 {
+            width: 380px;
+            height: 50px;
+            margin: 10px;
+            background-image: url(/Users/zhangkuang/Desktop/image/list1.jpeg);
+            border: 1px solid black;
+            background-color: green;
+            float: left;
+        }
+        
+        .e_5 {
+            width: 380px;
+            height: 50px;
+            margin: 10px;
+            background-image: url(/Users/zhangkuang/Desktop/image/list1.jpeg);
+            border: 1px solid black;
+            background-color: green;
+            float: left;
+        }
+        
+        .e_6 {
+            width: 380px;
+            height: 50px;
+            margin: 10px;
+            background-image: url(/Users/zhangkuang/Desktop/image/list1.jpeg);
+            border: 1px solid black;
+            background-color: green;
+            float: left;
+        }
+        
+        .e_7 {
+            width: 380px;
+            height: 120px;
+            margin: 10px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: green;
+            float: left;
+        }
+        
+        .e_8 {
+            width: 380px;
+            height: 240px;
+            margin: 10px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: green;
+            float: left;
+        }
+        
+        .aone {
+            width: 400px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 30px;
+            float: left;
+        }
+        
+        .a_1 {
+            width: 400px;
+            height: 250px;
+            float: left;
+            background-image: url(/Users/zhangkuang/Desktop/image/ul-imglist1.jpg);
+        }
+        
+        .a_2 {
+            width: 400px;
+            height: 50px;
+            float: left;
+            margin-top: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        
+        .atwo {
+            width: 400px;
+            height: 300px;
+            margin: 30px;
+            border: 1px solid black;
+            float: left;
+        }
+        
+        .b {
+            width: 430px;
+            height: 600px;
+            float: left;
+            margin: 20px;
+            border-radius: 20px;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+        
+        .b_top {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .c {
+            width: 430px;
+            height: 270px;
+            margin: 20px;
+            float: left;
+            border-radius: 20px;
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+        
+        .c_top {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        /* .c>span {
+            width: 100%;
+            color: rgb(245, 9, 9);
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }*/
+        
+        .c_1 {
+            color: red;
+            margin: 10px;
+        }
+        
+        .c_2 {
+            color: red;
+            float: right;
+        }
+        
+        .d {
+            width: 430px;
+            height: 270px;
+            margin: 20px;
+            float: left;
+            border-radius: 20px;
+            background-color: bisque;
+            border: 1px solid black;
+        }
+        /*标签选择器*/
+        
+        li {
+            border-right: 1px solid wheat;
+            background-color: red;
+            float: left;
+            font-size: 20px;
+            font-family: "微软雅黑";
+            font-weight: 200;
+            list-style: none;
+            clear: both;
+            flex: 1;
+            text-align: center;
+        }
+        
+        ol {
+            display: flex;
+            border: 1px red;
+            line-height: 40px;
+            height: 40px;
+        }
+        /*伪类*/
+        
+        li:hover {
+            background-color: aquamarine;
+            color: red;
+            cursor: pointer;
+            /*改变鼠标的图形*/
+        }
+        
+        .login {
+            width: 380px;
+        }
+        
+        .search {
+            width: 380px;
+            height: 50px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .b_1 {
+            color: red;
+            margin: 10px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        
+        .b_2 {
+            color: red;
+            margin-right: 5px;
+            float: right;
+        }
+        
+        #user {
+            text-align: center;
+        }
+        
+        #pwd {
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="head">
+
+    </div>
+
+    <div class="line">
+        <ol>
+            <li>网站首页</li>
+            <li>企业概括</li>
+            <li>企业文化</li>
+            <li>资质信誉</li>
+            <li>技术水平</li>
+            <li>工程业绩</li>
+            <li>质量管理</li>
+            <li>党群建设</li>
+            <li>社会责任</li>
+            <li>国际合作</li>
+            <li>人力资源</li>
+            <li>联系我们</li>
+        </ol>
+
+    </div>
+
+
+    <div id="boxid">
+        <div class="a">
+
+            <div class="aone">
+                <div class="a_1">
+
+                </div>
+
+                <div class="a_2">
+                    <p>我国中标锡盟-南京10000kv特高压交流工程两标包</p>
+                </div>
+
+            </div>
+
+            <div class="atwo">
+
+                <hr>
+            </div>
+
+        </div>
+
+
+
+        <div class="e">
+            <div class="e_1">
+                <input type="text" style="width: 250px; height: 20px; margin-top: 15px;">
+                <input type="button" value="Go">
+            </div>
+
+
+            <div class="e_2">
+
+                <div class="search">
+                    用户搜说
+                    <hr/>
+                </div>
+
+
+                /*登陆界面用
+                <table>*/
+                    <table class="login">
+                        <tr>
+                            <td id="user">用户名：</td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td id="pwd">密码：</td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="button" value="登陆"></td>
+                            <td><input type="button" value="重置"></td>
+                        </tr>
+
+
+                    </table>
+            </div>
+
+            <div class="e_3">
+
+            </div>
+
+            <div class="e_4">
+
+            </div>
+
+            <div class="e_5">
+
+            </div>
+
+            <div class="e_6">
+
+            </div>
+
+            <div class="e_7">
+
+            </div>
+
+            <div class="e_8">
+
+            </div>
+
+        </div>
+
+
+
+        <div class="b">
+            <div class="b_top">
+                <span class="b_1">企业动态</span>
+                <span class="b_2">更多</span>
+                <hr>
+            </div>
+
+            <div>
+                hfahah
+            </div>
+
+        </div>
+
+
+        <div class="c">
+            <div class="c_top">
+                <span class="c_1">业务信息</span>
+                <span class="c_2">更多。。。</span>
+                <hr>
+            </div>
+        </div>
+
+        <div class="d">
+            <span></span>
+            <span></span>
+            <hr>
+        </div>
+
+
+    </div>
+
+
+
+
+    <input type="file" value="上传图片">
+
+</body>
+
+</html>

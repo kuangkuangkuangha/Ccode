@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Hello World!</title>
+
+        <style type="text/css">
+         
+            /* */
+            #boxid
+            {
+                border: 1px solid red;
+            }
+
+            #but
+            {
+                text-align: center;
+            }
+
+            .boxname
+            {
+                color: rgb(241, 15, 15);
+            }
+
+            /*标签选择器*/
+            td{
+                border: 1px solid greenyellow;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <table id="boxid" class="boxname">
+
+
+            <tr>
+                <td style="border: solid gray;">姓名：</td>
+                <td colspan="2">
+                    <input type="text"/>
+                </td>
+               
+            </tr>
+            
+            <tr>
+                <td rowspan="2">代办事物</td>
+                <td colspan="2">1</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">2</td>
+            </tr>
+
+            <tr>
+                <td>地址</td>
+                <td colspan="2"></td>
+            </tr>
+
+            <tr>
+                <td>密码</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="button" value="验证码"
+                </td>
+            </tr>
+
+            <tr id="but">
+                <td colspan="3">提交</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
